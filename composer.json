@@ -1,0 +1,29 @@
+{
+    "name": "tlrwstudio/vendor-php-namespace",
+    "description": "This package serves to register the vendor name `tlrwstudio` of packages.",
+    "keywords": ["dummy-package"],
+    "type": "library",
+    "license": "Unlicense",
+    "authors": [
+        {
+            "name": "Robert Wąchal",
+            "email": "wrobrt@tlrw.studio"
+        }
+    ],
+    "homepage": "https://github.com/tlrwstudio/vendor-php-namespace",
+    "support": {
+        "issues": "https://github.com/tlrwstudio/vendor-php-namespace/issues"
+    },
+    "require": {
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Tlrw\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
